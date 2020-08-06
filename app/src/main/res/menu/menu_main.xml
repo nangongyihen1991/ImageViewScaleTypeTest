@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.imagetest.MainActivity">
+    <item
+        android:id="@+id/fix_center"
+        android:orderInCategory="100"
+        android:title="fix_center"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fix_start"
+        android:orderInCategory="101"
+        android:title="fix_start"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fix_end"
+        android:orderInCategory="102"
+        android:title="fix_end"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fix_xy"
+        android:orderInCategory="103"
+        android:title="fix_xy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/center"
+        android:orderInCategory="104"
+        android:title="center"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/center_crop"
+        android:orderInCategory="105"
+        android:title="center_crop"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/center_inside"
+        android:orderInCategory="106"
+        android:title="center_inside"
+        app:showAsAction="never" />
+
+</menu>
